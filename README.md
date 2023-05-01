@@ -34,7 +34,8 @@ mim install 'mmdet>=3.0.0'
 ### step 1. Install MMDetection3D.
 develop and run mmdet3d directly, install it from source(build from source):
 ```
-git clone https://github.com/open-mmlab/mmdetection3d.git -b dev-1.x
+- git clone https://github.com/open-mmlab/mmdetection3d.git -b dev-1.x
+- or dowmload zip from ```https://github.com/open-mmlab/mmdetection3d/archive/refs/tags/v1.1.0.zip```
 # "-b dev-1.x" means checkout to the `dev-1.x` branch.
 cd mmdetection3d
 pip install -v -e .
